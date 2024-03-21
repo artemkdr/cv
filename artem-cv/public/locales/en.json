@@ -1,0 +1,137 @@
+{
+    "FullName": "ARTEM KUDRYAVTSEV",
+    "JobTitle": "DEV TECH/TEAM LEAD | SOFTWARE ENGINEER",
+    "ContactTitle": "CONTACT",
+    "PhoneFormatted": "+41 79 917 95 21",
+    "Phone": "+41799179521",
+    "Email": "artem.kdr@gmail.com",
+    "LinkedinLabel": "LinkedIn profile",
+    "Address": "1618 Chatel St Denis, CH",
+
+    "Expertise": {
+        "Title": "EXPERTISE",
+        "List": [
+            "15+ years of full stack web development",
+            "Team leadership",
+            "Project management",
+            "Continuous Integration / Continuous Delivery"
+        ]
+    },
+
+    "TechSkills": {
+        "Title": "TECH SKILLS",
+        "List": [
+            ".NET platform, C#, Razor",
+            "html, js, css, TypeScript, React, SEO",
+            "UX/UI, mobile development (PWA)",
+            "SQL (MSSql, PostgreSql)",
+            "Nginx administration, RabbitMQ Jira, Jenkins, Git, SVN",
+            "AWS (API, configuration, deploy), GCP (API, configuration), SalesForce (API, integration)"
+        ]
+    },
+
+    "SoftSkills": {
+        "Title": "SOFT SKILLS",
+        "List": [
+            "Performance and problem-solving",
+            "Emotional intelligence",
+            "Adaptability, flexibility, quick to learn",
+            "Effective communication"
+        ]
+    },
+
+    "Education": {
+        "Title": "EDUCATION",
+        "List": [ "Lomonosov Moscow State University, 2000-2006 (5.5 years), Masters at Nuclear Physics" ]
+    },
+
+    "Languages": {
+        "Title": "LANGUAGES",
+        "List": [ 
+            "English (fluent)",
+            "French (fluent)",
+            "Russian (native)"
+        ]
+    },
+
+    "About": {
+        "Title": "ABOUT",
+        "Text": "Born in Moscow, Russia, in 1983, I have called Switzerland home since 2010 (C Permit). Married with two children, I'm an avid enthusiast of music production, video editing, snowboarding and ice hockey."
+    },
+
+    "Jobs": {
+        "Title": "WORK EXPERIENCE",
+        "List": [{
+            "Title": "Dev Tech/Team lead",
+            "Company": "Delta Car Trade SA, 1806 St Legier, CH",
+            "Period": "2022- 03.2024",
+            "Duties": [
+              "managing a team of 5-7 developers",
+              "project management",
+              "tech and integration expert",
+              "code review"
+            ],
+            "ProjectTitle": "Important projects (from 0 to launch)",
+            "Projects": [
+              "PWA (progressive web app) of auto-source.com B2B platform (built on React)",
+              "Massive databases migration: MSSql to PostgreSql",
+              "Unique email campaigns managing platform using Sendgrid and Amazon SES as a provider (including template builder, subject planner, etc...)",
+              "RabbitMQ integration",
+              "Native WhatsApp client for the sales team (built with Nodes.js)"
+            ]
+        }, {
+            "Title": "Senior Fullstack Web Developer",
+            "Company": "Delta Car Trade SA, 1806 St Legier, CH",
+            "Period": "2018-2022",
+            "Duties": [
+              "Development of internal Business Analytics platform",
+              "Development of internal Sales management platform"
+            ],
+            "ProjectTitle": "Important projects (entirely developed by myself)",
+            "Projects": [
+              "auto-dealer.com websites",
+              "auto-source.com websites",
+              "internal stats and reports portal",
+              "internal call center intelligent platform"
+            ]
+        }, {
+            "Title": "Software Engineer",
+            "Company": "Delta Car Trade SA, 1806 St Legier, CH",
+            "Period": "2007-2018",
+            "Duties": [
+              "Development of a platform for selling new cars online",
+              "Development of flash-based TV system (broadcasting of custom animations/video on the TVs installed to our clients)"
+            ],
+            "ProjectTitle": "Important projects",
+            "Projects": [
+              "multimarque.com websites for 4 markets (FR, DE, 2 CH markets)",
+              "DeltaTV"
+            ]
+        }, {
+            "Title": "Flash/Flex developer",
+            "Company": "Art 3D Graphics, Moscow, Russia",
+            "Period": "2007",
+            "Duties": [
+              "Development of flash-based promo websites",
+              "Development of flash-based interactive presentations"
+            ]
+        }, {
+            "Title": "Flash/Flex developer",
+            "Company": "Hive7 (remotely)",
+            "Period": "2006-2007",
+            "Duties": [
+              "Development of flash chat for Hive7 virtual world"
+            ]
+        }, {
+            "Title": "Flash/Flex developer",
+            "Company": "Nexo Russia, Moscow, Russia",
+            "Period": "2005-2007",
+            "Duties": [
+              "Development of tracking system for the vehicles",
+              "Development of a call-center system to process the alarms coming from the vehicles"
+            ]
+        }]
+    },
+
+    "Copyright": "Artem Kudryavtsev. All rights reserved."
+}
