@@ -22,7 +22,8 @@ const LanguageSelector = ({style}) => {
         classNamePrefix='react-select'
         onChange={handleChange} 
         value={options?.find(option => option.value === i18n.language)}
-        options={options} />
+        options={options}
+        isSearchable={false} />
     </div>
   );
 };
