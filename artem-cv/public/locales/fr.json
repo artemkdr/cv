@@ -1,4 +1,149 @@
 {
-    "FullName": "ARTEM KUDRYAVTSEV",
-    "JobTitle": "DEV TECH/TEAM LEAD | SOFTWARE ENGINEER"
-}
+    "FullName": "ARTEM KUDRYAVTSEV", 
+    "JobTitle": "DEV TECH/TEAM LEAD | SOFTWARE ENGINEER", 
+  
+    "Contact": {
+      "Title": "CONTACT", 
+      "PhoneFormatted": "+41 79 917 95 21", 
+      "Phone": "+41799179521", 
+      "Email": "artem.kdr@gmail.com", 
+      "LinkedinLabel": "Profil LinkedIn", 
+      "Linkedin": "https://www.linkedin.com/in/artem-kudryavtsev-8937144/",
+      "GithubLabel": "Github (ce projet)", 
+      "Github": "https://github.com/fishbounce/cv/",
+      "Address": "1618 Chatel St Denis, CH" 
+    },
+  
+    "Expertise": {
+      "Title": "EXPERTISE", 
+      "List": [
+        "15+ ans de développement web full stack", 
+        "Leadership d'équipe", 
+        "Gestion de projet", 
+        "Intégration Continue / Livraison Continue" 
+      ]
+    },
+  
+    "TechSkills": {
+      "Title": "COMPÉTENCES TECHNIQUES",
+      "List": [
+        "Plateforme .NET, C#, Razor", 
+        "html, js, css, TypeScript, React, SEO", 
+        "UX/UI, développement mobile (PWA)", 
+        "SQL (MSSql, PostgreSql)",
+        "Administration Nginx, RabbitMQ Jira, Jenkins, Git, SVN", 
+        "AWS (API, configuration, déploiement), GCP (API, configuration), SalesForce (API, intégration)"
+      ]
+    },
+  
+    "SoftSkills": {
+      "Title": "COMPÉTENCES GÉNÉRALES", 
+      "List": [
+        "Performance et résolution de problèmes",
+        "Intelligence émotionnelle", 
+        "Adaptabilité, flexibilité, apprentissage rapide",
+        "Communication efficace" 
+      ]
+    },
+  
+    "Education": {
+      "Title": "ÉDUCATION", 
+      "List": [ "Université d'État de Moscou Lomonossov, 2000-2006 (5.5 ans), Master en physique nucléaire" ]
+    },
+  
+    "Languages": {
+      "Title": "LANGUES", 
+      "List": [ 
+        "Anglais (fluide)", 
+        "Français (fluide)", 
+        "Russe (maternelle)" 
+      ]
+    },
+  
+    "About": {
+      "Title": "À PROPOS", 
+      "Text": "Né à Moscou, en Russie, en 1983, je vis en Suisse depuis 2010 (permis C). Marié et père de deux enfants, je suis passionné de production musicale, de montage vidéo, de snowboard et de hockey sur glace."
+    },
+  
+    "Jobs": {
+      "Title": "EXPÉRIENCE PROFESSIONNELLE",
+      "List": [{
+        "Title": "Dev Tech/Team lead",
+        "Company": "Delta Car Trade SA, 1806 St Legier, CH",
+        "Period": "2022-03.2024", 
+        "Duties": [
+          "gestion d'une équipe de 5-7 développeurs",
+          "gestion de projet",
+          "expert technique et intégration", 
+          "code review" 
+        ],
+        "ProjectTitle": "Projets importants (de la conception au lancement)",
+        "Projects": [
+          "PWA (application web progressive) de la plateforme B2B auto-source.com (React)", 
+          "Migration massive de bases de données: MSSql vers PostgreSql",
+          "Plateforme unique de gestion de campagnes d'e-mailing utilisant Sendgrid et Amazon SES comme fournisseur (y compris la création de modèles, la planification des sujets, etc...)",
+          "Intégration RabbitMQ", 
+          "Client WhatsApp natif pour l'équipe de vente (Nodes.js)" 
+        ]
+      }, { 
+        "Title": "Développeur Web Fullstack Senior",
+        "Company": "Delta Car Trade SA, 1806 St Legier, CH",
+        "Period": "2018-2022", 
+        "Duties": [
+          "Développement de la plateforme interne de Business Analytics ", 
+          "Développement de la plateforme interne de gestion des ventes"
+        ],
+        "ProjectTitle": "Projets importants (entièrement développés par moi-même)",
+        "Projects": [
+          "sites web auto-dealer.com", 
+          "sites web auto-source.com", 
+          "portail interne de statistiques et de rapports",
+          "plateforme interne de centre d'appels intelligent" 
+        ]
+      }, {
+        "Title": "Software Engineer",
+        "Company": "Delta Car Trade SA, 1806 St Legier, CH",
+        "Period": "2007-2018",
+        "Duties": [
+          "Développement d'une plateforme de vente de voitures neuves en ligne",
+          "Développement d'un système TV basé sur Flash / clé USB sur Linux (diffusion d'animations/vidéos personnalisées sur les télés installés chez nos clients)"
+        ],
+        "ProjectTitle": "Projets importants",
+        "Projects": [
+          "Sites multimarque.com pour 4 marchés (FR, DE, 2 marchés CH)",   
+          "DeltaTV" 
+        ]
+        }, { 
+        "Title": "Développeur Flash/Flex",
+        "Company": "Art 3D Graphics, Moscou, Russie",
+        "Period": "2007",
+        "Duties": [
+          "Développement de sites web promotionnels en Flash",
+          "Développement de présentations interactives basées sur Flash" 
+        ]
+      }, {
+        "Title": "Développeur Flash/Flex",
+        "Company": "Hive7 (à distance)",
+        "Period": "2006-2007",
+        "Duties": [
+          "Développement d'un chat (messagerie) flash pour le monde virtuel Hive7" 
+        ]
+      }, { 
+        "Title": "Développeur Flash/Flex",
+        "Company": "Nexo Russia, Moscou, Russie",
+        "Period": "2005-2007",
+        "Duties": [
+          "Développement d'un système de tracking des véhicules", 
+          "Développement d'un système de centre d'appels pour traiter les alertes des véhicules"
+        ]
+      }]
+    },
+
+    "i18Languages": {
+        "en": "English",
+        "fr": "Français",        
+        "de": "Deutsch"
+    },
+  
+    "Copyright": "Artem Kudryavtsev. Tous les droits sont réservés." 
+}  
