@@ -142,7 +142,8 @@
     "i18Languages": {
       "en": "English",
       "fr": "Français",        
-      "de": "Deutsch"
+      "de": "Deutsch",
+      "ru": "Русский"
     },
 
     "Copyright": "Artem Kudryavtsev. All rights reserved."

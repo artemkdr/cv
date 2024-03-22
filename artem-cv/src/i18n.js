@@ -3,7 +3,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import i18n from 'i18next';
 import Backend from 'i18next-http-backend';
 
-export const supportedLngs = ['fr', 'en', 'de'];
+export const supportedLngs = ['fr', 'en', 'de', 'ru'];
 
 i18n
 .use(Backend)
