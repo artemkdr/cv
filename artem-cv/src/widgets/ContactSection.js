@@ -13,15 +13,15 @@ const ContactSection = () => {
                 </div>
             <div className="line email">
                 <div className="icon"></div>
-                <a href={'mailto:' + t('Contact.Email')} target="_blank" rel="noreferrer">{t('Contact.Email')}</a>
+                <a href={'mailto:' + t('Contact.Email')} target="_blank" rel="noopener noreferrer">{t('Contact.Email')}</a>
                 </div>
             <div className="line linkedin">
                 <div className="icon"></div>
-                <a href={t('Contact.Linkedin')} target="_blank" rel="noreferrer">{t('Contact.LinkedinLabel')}</a>
+                <a href={t('Contact.Linkedin')} target="_blank" rel="noopener noreferrer">{t('Contact.LinkedinLabel')}</a>
             </div>
             <div className="line github">
                 <div className="icon"></div>
-                <a href={t('Contact.Github')} target="_blank" rel="noreferrer">{t('Contact.GithubLabel')}</a>
+                <a href={t('Contact.Github')} target="_blank" rel="noopener noreferrer">{t('Contact.GithubLabel')}</a>
             </div>
             <div className="line address">
                 <div className="icon"></div>

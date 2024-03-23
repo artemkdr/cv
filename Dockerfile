@@ -20,9 +20,9 @@ RUN pip install -r Flask
 COPY server.py .
 COPY . .
 
-EXPOSE 8080  # Adjust if your Python script uses a different port
+EXPOSE 8080  
 
 # Serve React app in production mode
 CMD ["python", "-m", "http.server", "--directory", "/client"]
 # 
-CMD ["gunicorn", "--bind", "0.0.0.0:8081", "server:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "server:app"]
