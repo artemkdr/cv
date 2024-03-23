@@ -142,9 +142,6 @@ ul { padding: 0px 0px 0px 20px; margin: 0px; display: block; clear: both; line-h
   transition: all 0.5s ease-out;
 }
 
-/* React simple chat bot */
-.rsc-container, .rsc-button, .rsc-header, .rsc-content, .rsc-footer, .rsc-ts { float: none; }
-
 
 /* SVG data URIs for icons */
 .phone .icon {
