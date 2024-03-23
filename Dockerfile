@@ -24,3 +24,5 @@ EXPOSE 8080  # Adjust if your Python script uses a different port
 
 # Serve React app in production mode
 CMD ["python", "-m", "http.server", "--directory", "/client"]
+# 
+CMD ["gunicorn", "--bind", "0.0.0.0:8081", "server:app"]
