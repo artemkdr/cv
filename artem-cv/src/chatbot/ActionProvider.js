@@ -2,16 +2,20 @@ import React from 'react';
 
 const ActionProvider = ({ createChatBotMessage, setState, children }) => {
   const handleMessage = async (message) => {
-    let rsp = "...";
+    let answer = "...";
     const loading = createChatBotMessage("");
     setState((prev) => ({ ...prev, messages: [...prev.messages, loading], }));
     
     try {
-        rsp = await fetch('//34.65.92.137/api/chatbot?q=' + message);
+        const rsp = await fetch('//34.65.92.137/api/chatbot?q=' + message);
+        if (rsp.ok) {
+            answer = await rsp.text();
+        }
+        console.log(answer);
     } catch (ex) {
-        rsp = "Oups... something is broken."
+        answer = "Oups... something is broken."
     }
-    const botMessage = createChatBotMessage(rsp);
+    const botMessage = createChatBotMessage(answer + "");
     setState((prev) => {
         const newPrevMsg = prev.messages.slice(0, -1)
         return { ...prev, messages: [...newPrevMsg, botMessage]};
