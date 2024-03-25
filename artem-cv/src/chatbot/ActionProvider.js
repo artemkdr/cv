@@ -7,9 +7,9 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     setState((prev) => ({ ...prev, messages: [...prev.messages, loading], }));
     
     try {
-        const rsp = await fetch('//34.65.92.137/api/chatbot?q=' + message);
+        const rsp = await fetch('//cv.artem.work/api/chatbot?q=' + message);
         if (rsp.ok) {
-            answer = await rsp.text();
+            answer = (await rsp.text())?.replace(/\\n/g, '<br/>');
         }
         console.log(answer);
     } catch (ex) {

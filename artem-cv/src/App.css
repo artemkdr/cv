@@ -160,7 +160,7 @@ ul { padding: 0px 0px 0px 20px; margin: 0px; display: block; clear: both; line-h
 }
 .react-chatbot-kit-chat-container div { float: none !important; }
 .react-chatbot-kit-chat-header { display: none !important; }
-.react-chatbot-kit-chat-message-container { background: #222831 !important; color: #eeeeee !important; font-family: inherit; height: 100% !important; overflow-y: auto; overflow-x: hidden;  }
+.react-chatbot-kit-chat-message-container { background: #222831 !important; color: #eeeeee !important; font-family: inherit; height: calc(100% - 50px) !important; overflow-y: auto; overflow-x: hidden;  }
 .react-chatbot-kit-chat-inner-container { height: 500px !important; max-height: 90vh; border-radius: 0px !important; border-top: 5px solid #222830; }
 .react-chatbot-kit-chat-bot-message { background: #1e1f20 !important; color: #eee; font-size: 1rem !important; width: 100% !important; }
 .react-chatbot-kit-user-chat-message { background: none !important; color: #fff !important; font-size: 1rem !important; width: auto !important; }
