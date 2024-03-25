@@ -15,6 +15,7 @@ COPY --from=build-react /artem-cv/build /client
 WORKDIR /
 
 RUN pip install -r Flask
+RUN pip install vertexai
 
 # Copy your Python script and any additional files
 COPY server.py .
@@ -22,7 +23,4 @@ COPY . .
 
 EXPOSE 8080  
 
-# Serve React app in production mode
-CMD ["python", "-m", "http.server", "--directory", "/client"]
-# 
 CMD ["gunicorn", "--bind", "0.0.0.0:8080", "server:app"]

@@ -1,6 +1,6 @@
 import './App.css';
 
-import React from 'react';
+import React, { useState } from 'react';
 // Initialize i18next with translations
 import './i18n';
 import { useTranslation } from 'react-i18next';
@@ -14,22 +14,60 @@ import { DarkModeSwitch } from 'react-toggle-dark-mode';
 import useDarkMode from './helpers/useDarkMode.js';
 import useTranslationsList from './helpers/useTranslationsList.js';
 import LanguageSelector from './widgets/LanguageSelector.js';
+import Chatbot, { createChatBotMessage } from "react-chatbot-kit";
+import MessageParser from './chatbot/MessageParser.js';
+import ActionProvider from './chatbot/ActionProvider.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClose, faCommentDots } from '@fortawesome/free-solid-svg-icons';
+import 'react-chatbot-kit/build/main.css';
+import 'font-awesome/css/font-awesome.min.css';
+
 
 function App() {
   const { t } = useTranslation();
   const { isDarkMode, toggleDarkMode } = useDarkMode();  
+  const [isChatbotVisible, setIsChatbotVisible] = useState(false);
+
+  const handleChatBtnClick = () => {
+    setIsChatbotVisible(!isChatbotVisible);
+  };
+  const handleCloseChatBtnClick = () => {
+    setIsChatbotVisible(false);
+  };
 
   let jobs = t('Jobs.List', { returnObjects: true });
-  
+  const chatbotConfig = {
+    botName: t('Chatbot.BotName'),
+    initialMessages: [createChatBotMessage(t('Chatbot.Salutation'))]
+  };
+
   return (
     <div class='ext'> 
+
+      <button className='chat-button' onClick={handleChatBtnClick} >
+        <FontAwesomeIcon icon={faCommentDots} />
+      </button>
+      {isChatbotVisible && <button className='close-chat-button' onClick={handleCloseChatBtnClick} >
+        <FontAwesomeIcon icon={faClose} />
+      </button>}
+
+      {isChatbotVisible && 
+        <Chatbot 
+          config={chatbotConfig}
+          messageParser={MessageParser}
+          actionProvider={ActionProvider}
+          headerText={t('Chatbot.Title')}
+          placeholderText={t('Chatbot.Placeholder')}
+          />}
       
       <LanguageSelector />
+      
       <DarkModeSwitch 
         style={{ position: 'absolute', top: '10px', right: '10px' }} 
         checked={isDarkMode} 
         onChange={toggleDarkMode} 
         size={25} />
+      
       <Header />
       <div className='container'>      
         <div className='left-pane'>

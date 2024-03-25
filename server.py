@@ -2,19 +2,23 @@ import vertexai
 from flask import Flask, request
 from vertexai.language_models import TextGenerationModel
 
-vertexai.init(project="personal-website-417910", location="europe-west3")
-parameters = {
-    "candidate_count": 1,
-    "max_output_tokens": 1024,
-    "temperature": 0.9,
-    "top_p": 1
-}
-
 app = Flask(__name__)
 
-@app.route('/chatbot', methods=['GET'])
+@app.route('/api/status', methods=['GET'])
+def status_endpoint():
+    return "OK"
+
+@app.route('/api/chatbot', methods=['GET'])
 def chatbot_endpoint():
     question = request.args.get('q')  # Get the 'q' query parameter
+
+    vertexai.init(project="personal-website-417910", location="europe-west3")
+    parameters = {
+        "candidate_count": 1,
+        "max_output_tokens": 1024,
+        "temperature": 0.9,
+        "top_p": 1
+    }
 
     model = TextGenerationModel.from_pretrained("text-bison")
     response = model.predict(
@@ -195,3 +199,6 @@ def chatbot_endpoint():
         **parameters
     )
     return response.text
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8001) 

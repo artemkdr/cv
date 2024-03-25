@@ -1,4 +1,11 @@
 {
+  "Chatbot": {
+    "Title": "Artem's Chatbot", 
+    "Salutation": "Hallo! Stellen Sie mir eine Frage über Artem",
+    "Placeholder": "Nachricht eingeben",
+    "BotName": "Artem" 
+  },
+
   "FullName": "ARTEM KUDRYAVTSEV",
   "JobTitle": "DEV TECH/TEAM LEAD | SOFTWARE ENGINEER",
 
@@ -31,7 +38,7 @@
       "HTML, JS, CSS, TypeScript, React, SEO",
       "UX/UI, mobile Entwicklung (PWA)",
       "SQL (MSSql, PostgreSql)",
-      "Administration Nginx, RabbitMQ Jira, Jenkins, Git, SVN",
+      "Administration Nginx, RabbitMQ, Jira, Jenkins, Git, SVN",
       "AWS (API, Konfiguration, Deployment), GCP (API, Konfiguration), SalesForce (API, Integration)"
     ]
   },

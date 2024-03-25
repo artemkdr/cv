@@ -142,6 +142,39 @@ ul { padding: 0px 0px 0px 20px; margin: 0px; display: block; clear: both; line-h
   transition: all 0.5s ease-out;
 }
 
+.chat-button { 
+  position: fixed; bottom: 10px; right: 15px; 
+  width: 70px; height: 50px; background: #FFC107; border-radius: 10px; border: none; font-size: 30px; color: #fff; text-align: center;
+  z-index: 999;
+}
+.close-chat-button { 
+  position: fixed; bottom: 490px; right: 10px; 
+  width: 30px; height: 30px; background: #222830; border-radius: 15px; border: none; font-size: 20px; color: #fff; text-align: center;
+  z-index: 1001;
+}
+
+.react-chatbot-kit-chat-container { 
+  position: fixed !important; z-index: 1000; bottom: 10px; right: 15px; float: none; 
+  font-family: inherit; max-width: 90% !important; background: #000 !important; 
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
+}
+.react-chatbot-kit-chat-container div { float: none !important; overflow: hidden; }
+.react-chatbot-kit-chat-header { display: none !important; }
+.react-chatbot-kit-chat-message-container { background: #222831 !important; color: #eeeeee !important; font-family: inherit; height: 100% !important;  }
+.react-chatbot-kit-chat-inner-container { height: 500px !important; max-height: 90vh; border-radius: 0px !important; }
+.react-chatbot-kit-chat-bot-message { background: #1e1f20 !important; color: #eee; }
+.react-chatbot-kit-chat-input-container { background: #000 !important; color: #eee !important; font-family: inherit; }
+.react-chatbot-kit-chat-input-form { font-family: inherit; background-color: #222831 !important; border: none !important; }
+.react-chatbot-kit-chat-btn-send { background: #FFC107 !important; border-radius: 10px !important; }
+.react-chatbot-kit-chat-input { 
+  font-family: inherit; background: none; color: #ccc; 
+  border: none !important; border-top: 1px solid #666 !important;
+  padding: 15px 20px !important; 
+}
+.react-chatbot-kit-user-chat-message { background: none !important; color: #fff !important; }
+.react-chatbot-kit-chat-bot-message-arrow, .react-chatbot-kit-user-chat-message-arrow { display: none;}
+
+
 
 /* SVG data URIs for icons */
 .phone .icon {
