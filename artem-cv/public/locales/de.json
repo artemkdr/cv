@@ -155,5 +155,6 @@
     "ru": "Русский"
   },
 
-  "Copyright": "Artem Kudryavtsev. Alle Rechte vorbehalten."
+  "Copyright": "Artem Kudryavtsev. Alle Rechte vorbehalten.",
+  "BuildWith": "Gebaut in React und Python (VertexAI für den Chatbot) mit Github Codespace, eingesetzt auf GCP."
 }
