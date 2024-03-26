@@ -1,0 +1,6 @@
+if ($to_block) {
+    return 403;
+}
+if ($to_block_by_uri) {
+    return 403;
+}

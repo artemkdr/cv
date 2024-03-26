@@ -1,0 +1,38 @@
+map $http_user_agent $to_block {
+    default 0;
+    ~*(python|aiohttp) 1;
+}
+
+map $request_uri $to_block_by_uri {
+	default 0;
+	~*(print\-promo) 0;
+	~*(<|%3C).*script.*(>|%3) 1;
+	~*(\.(old|orig|original|php#|php~|php_bak|php|save|swo|aspx?|tpl|sh|bash|bak|cfg|cgi|dll|exe|git|hg|ini|jsp|log|mdb|out|sql|svn|swp|tar|rdf)(\?|$)) 1;
+	~*(eval\() 1;
+	~*(\'|\")(.*)(drop|insert|md5|select|union) 1;
+}
+
+map $http_user_agent $is_bot {
+	default 0;
+	~*(bot|spider|crawl|qwant|adscanner|facebookexternalhit) 1;
+}
+
+map $http_user_agent $is_google_bot {
+	default 0;
+	~*(googlebot) 1;
+}
+
+map $http_user_agent $is_facebook_bot {
+	default 0;
+	~*(facebookexternalhit) 1;
+}
+
+map $is_bot $is_not_bot {
+	default 1;
+	1 0;
+}
+
+access_log  /var/log/nginx/access_bots.log  combined if=$is_bot;
+access_log  /var/log/nginx/access_blocked.log  combined if=$to_block;
+access_log  /var/log/nginx/access_blocked.log  combined if=$to_block_by_uri;
+access_log  /var/log/nginx/access.log  combined if=$is_not_bot;
