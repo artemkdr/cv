@@ -18,9 +18,8 @@ RUN pip install -r Flask
 RUN pip install vertexai
 
 # Copy your Python script and any additional files
-COPY server.py .
+COPY server/server.py .
 COPY . .
 
-EXPOSE 8080  
-
-CMD ["gunicorn", "--bind", "0.0.0.0:8080", "server:app"]
+# EXPOSE 8080
+# CMD ["gunicorn", "--bind", "0.0.0.0:8080", "server:app"]

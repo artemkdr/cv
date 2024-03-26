@@ -1,0 +1,11 @@
+[Unit]
+Description=Python Chatbot Server
+After=network.target
+
+[Service]
+WorkingDirectory=/home/fishbounce
+ExecStart=/usr/bin/python3 server.py 
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

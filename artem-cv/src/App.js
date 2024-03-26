@@ -28,17 +28,18 @@ function App() {
   const { isDarkMode, toggleDarkMode } = useDarkMode();  
   const [isChatbotVisible, setIsChatbotVisible] = useState(false);
 
+  const jobs = t('Jobs.List', { returnObjects: true });
+  
+  const chatbotConfig = {
+    botName: t('Chatbot.BotName'),
+    initialMessages: [createChatBotMessage(t('Chatbot.Salutation'))]
+  };
+
   const handleChatBtnClick = () => {
     setIsChatbotVisible(!isChatbotVisible);
   };
   const handleCloseChatBtnClick = () => {
     setIsChatbotVisible(false);
-  };
-
-  let jobs = t('Jobs.List', { returnObjects: true });
-  const chatbotConfig = {
-    botName: t('Chatbot.BotName'),
-    initialMessages: [createChatBotMessage(t('Chatbot.Salutation'))]
   };
 
   return (

@@ -1,4 +1,5 @@
 import vertexai
+import os
 from flask import Flask, request
 from vertexai.language_models import TextGenerationModel
 
@@ -11,18 +12,24 @@ def status_endpoint():
 @app.route('/api/chatbot', methods=['GET'])
 def chatbot_endpoint():
     question = request.args.get('q')  # Get the 'q' query parameter
+    
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/fishbounce/.secret/personal-website-417910-bc4ced3cc2d4.json"
 
     vertexai.init(project="personal-website-417910", location="europe-west3")
     parameters = {
-        "candidate_count": 1,
-        "max_output_tokens": 1024,
-        "temperature": 0.9,
-        "top_p": 1
+    "candidate_count": 1,
+    "max_output_tokens": 200,
+    "temperature": 0.2,
+    "top_k": 5,
+    "top_p": 0.5,
+    "logprobs": 0
     }
-
-    model = TextGenerationModel.from_pretrained("text-bison")
+    model = TextGenerationModel.from_pretrained("gemini-1.0-pro-001")
     response = model.predict(
-        """This is a chatbot about Artem Kudryavtsev, a Dev Tech/Team Lead an a Software Engineer who is looking for a job right now. You can answer max 10 questions. You answer only about the facts from his CV and bio. All the questions about salary should be addressed directly to Artem via contact found in CV.
+        """This is a chatbot about Artem Kudryavtsev, a Dev Tech/Team Lead an a Software Engineer who is looking for a job right now. 
+    You must answer in the same language of the question. If you don't know what to answer then propose to contact Artem directly by phone, whatsapp or email.
+    You answer only about the facts from his CV and bio. All the questions about salary should be addressed directly to Artem via contact found in CV.
+    Artem is looking for a job right now, so he can start immediately.
     If there is a question about any technology that is not mentionned in CV, then answer that Artem will learn it easily for the project needs, because it\'s a project who drives the technology choice and not vice versa.
     I give you a json file with all CV information:
     {
@@ -170,7 +177,7 @@ def chatbot_endpoint():
     output: No, but he can learn for the project needs. Artem is very flexible and quick to learn.
 
     input: why Artem is looking for a new job?
-    output: Because his last employer went bankrupt after 22 years of existence.
+    output: Because his last employer went bankrupt in March 2024 after 22 years of existence.
 
     input: what is Artem legal status in Switzerland?
     output: Artem has C permit of residence. And he is also in the end of naturalization process for the swiss passport (passed all the tests, etc...).

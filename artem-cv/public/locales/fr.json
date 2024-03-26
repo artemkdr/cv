@@ -3,7 +3,9 @@
       "Title": "Le chatbot d'Artem",
       "Salutation": "Bonjour ! Posez-moi une question sur Artem",
       "Placeholder": "Saisissez votre question",
-      "BotName": "Artem"
+      "BotName": "Artem",
+      "Error": "Oups... quelque chose s'est mal passée.",
+      "Generic": "Voulez-vous me poser une autre question ?"
     },
 
     "FullName": "ARTEM KUDRYAVTSEV", 

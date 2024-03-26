@@ -3,7 +3,9 @@
       "Title": "Artem's chatbot",
       "Salutation": "Hi! Ask me a question about Artem",
       "Placeholder": "Enter message",
-      "BotName": "Artem"
+      "BotName": "Artem",
+      "Error": "Oups... something went wrong.",
+      "Generic": "Do you want to ask me something else?"
     },
     
     "FullName": "ARTEM KUDRYAVTSEV",
