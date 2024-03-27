@@ -43,7 +43,7 @@
         "Nginx, RabbitMQ",
         "Jira, Jenkins, Git, SVN, CI/CD, Docker",
         "Amazon Web Services (AWS), Google Cloud Platform (GCP)",
-        "SalesForce (API, integration)",
+        "SalesForce (API, intégration)",
         "OS: Windows, Linux"
       ]
     },
@@ -89,7 +89,7 @@
           "lancé une PWA pour la plateforme B2B d'auto-source.com, développée avec React",
           "organisé une migration massive de bases de données : MS SQL vers PostgreSql",
           "créé une plateforme de campagnes par email en utilisant Sendgrid et Amazon SES comme fournisseur. Cette solution interne a permis d'économiser 100 000 CHF par an pour notre entreprise",
-          "conçu et implémenté l'intégration de RabbitMQ avec mon équipe. A migré 9 services vers une architecture événementielle et a obtenu des services plus faiblement couplés",
+          "conçu et implémenté l'intégration de RabbitMQ avec mon équipe. A migré 9 services vers une architecture Event-Driven, obtenant plus de services “loosely coupled”",
           "introduit et configuré Jenkins (avec intégration GitHub). Cela a augmenté la productivité des développeurs en automatisant les tâches",
           "participé à la conception de l'architecture de nouveaux services",
           "interviewé et embauché 2 développeurs juniors",

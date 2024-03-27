@@ -84,7 +84,7 @@
             "Company": "Delta Car Trade SA, 1806 St Legier, CH",
             "Period": "09/2022 - 03/2024",
             "Duties": [
-              "managed a team of 5–7 developers",
+              "managed a team of 5-7 developers",
               "led 6 complex projects to release stage",
               "released a PWA of auto-source.com B2B platform, built on React",
               "organized massive migration of databases: MS SQL to PostgreSql",
