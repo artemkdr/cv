@@ -9,7 +9,7 @@
     },
 
     "FullName": "ARTEM KUDRYAVTSEV", 
-    "JobTitle": "DEV TECH/TEAM LEAD | SOFTWARE ENGINEER", 
+    "JobTitle": "TECH/TEAM LEAD | DÉVELOPPEUR WEB FULLSTACK", 
   
     "Contact": {
       "Title": "CONTACT", 
@@ -36,28 +36,31 @@
     "TechSkills": {
       "Title": "COMPÉTENCES TECHNIQUES",
       "List": [
-        "Plateforme .NET, C#, Razor", 
-        "html, js, css, TypeScript, React, SEO", 
-        "UX/UI, développement mobile (PWA)", 
-        "SQL (MSSql, PostgreSql)",
-        "Administration Nginx, RabbitMQ, Jira, Jenkins, Git, SVN", 
-        "AWS (API, configuration, déploiement), GCP (API, configuration), SalesForce (API, intégration)"
+        ".NET, C#, Razor, html, JavaScript, CSS",
+        "React.js, TypeScript",
+        "Base de données MSSql, PostgreSql",
+        "UX/UI, développement mobile (PWA), Search Engine Optimisation (SEO)",
+        "Nginx, RabbitMQ",
+        "Jira, Jenkins, Git, SVN, CI/CD, Docker",
+        "Amazon Web Services (AWS), Google Cloud Platform (GCP)",
+        "SalesForce (API, integration)",
+        "OS: Windows, Linux"
       ]
     },
   
     "SoftSkills": {
       "Title": "COMPÉTENCES GÉNÉRALES", 
       "List": [
-        "Performance et résolution de problèmes",
-        "Intelligence émotionnelle", 
-        "Adaptabilité, flexibilité, apprentissage rapide",
-        "Communication efficace" 
+        "Apprenant dynamique et agile",
+        "Communication efficace", 
+        "Capable de basculer aisément entre plusieurs projets simultanément tout en maintenant concentration et productivité",
+        "Grande capacité de production en respectant des délais" 
       ]
     },
   
     "Education": {
       "Title": "ÉDUCATION", 
-      "List": [ "Université d'État de Moscou Lomonossov, 2000-2006 (5.5 ans), Master en physique nucléaire" ]
+      "List": [ "Université d'État de Moscou Lomonossov, 2006, Masters en physique nucléaire" ]
     },
   
     "Languages": {
@@ -77,73 +80,68 @@
     "Jobs": {
       "Title": "EXPÉRIENCE PROFESSIONNELLE",
       "List": [{
-        "Title": "Dev Tech/Team lead",
+        "Title": "Tech/Team Lead",
         "Company": "Delta Car Trade SA, 1806 St Legier, CH",
-        "Period": "2022-03.2024", 
+        "Period": "09/2022 - 03/2024",
         "Duties": [
-          "gestion d'une équipe de 5-7 développeurs",
-          "gestion de projet",
-          "expert technique et intégration", 
-          "code review" 
-        ],
-        "ProjectTitle": "Projets importants (de la conception au lancement)",
-        "Projects": [
-          "PWA (application web progressive) de la plateforme B2B auto-source.com (React)", 
-          "Migration massive de bases de données: MSSql vers PostgreSql",
-          "Plateforme unique de gestion de campagnes d'e-mailing utilisant Sendgrid et Amazon SES comme fournisseur (y compris la création de modèles, la planification des sujets, etc...)",
-          "Intégration RabbitMQ", 
-          "Client WhatsApp natif pour l'équipe de vente (Nodes.js)" 
+          "dirigé une équipe de 5 à 7 développeurs",
+          "mené 6 projets complexes à la phase de lancement",
+          "lancé une PWA pour la plateforme B2B d'auto-source.com, développée avec React",
+          "organisé une migration massive de bases de données : MS SQL vers PostgreSql",
+          "créé une plateforme de campagnes par email en utilisant Sendgrid et Amazon SES comme fournisseur. Cette solution interne a permis d'économiser 100 000 CHF par an pour notre entreprise",
+          "conçu et implémenté l'intégration de RabbitMQ avec mon équipe. A migré 9 services vers une architecture événementielle et a obtenu des services plus faiblement couplés",
+          "introduit et configuré Jenkins (avec intégration GitHub). Cela a augmenté la productivité des développeurs en automatisant les tâches",
+          "participé à la conception de l'architecture de nouveaux services",
+          "interviewé et embauché 2 développeurs juniors",
+          "enrichi mon expérience en “code review”"
         ]
-      }, { 
-        "Title": "Développeur Web Fullstack Senior",
+      },
+      {
+        "Title": "Développeur Web Full Stack Senior",
         "Company": "Delta Car Trade SA, 1806 St Legier, CH",
-        "Period": "2018-2022", 
+        "Period": "01/2018 - 08/2022",
         "Duties": [
-          "Développement de la plateforme interne de Business Analytics ", 
-          "Développement de la plateforme interne de gestion des ventes"
-        ],
-        "ProjectTitle": "Projets importants (entièrement développés par moi-même)",
-        "Projects": [
-          "sites web auto-dealer.com", 
-          "sites web auto-source.com", 
-          "portail interne de statistiques et de rapports",
-          "plateforme interne de centre d'appels intelligent" 
+          "codé les sites web auto-dealer.com - 4 marchés, 2 langues, plus de 2 millions de visiteurs en 2022",
+          "créé les sites web auto-source.com - 80 000 utilisateurs (garagistes) en 2023",
+          "implémenté une plateforme interne de business intelligence, permettant un accès 2 fois plus rapide aux rapports et la création de nouveaux (par rapport à Salesforce)",
+          "conçu et développé une plateforme interne de centre d'appels. Elle a permis d'appeler plus de 60% des garages par mois",
+          "introduit et configuré le serveur web Nginx comme point d'entrée pour le proxy vers nos services. Cela a considérablement amélioré la fiabilité et la sécurité, nous permettant de réussir des tests de stress jusqu'à 200 000 connexions simultanées"
         ]
-      }, {
+      },
+      {
         "Title": "Software Engineer",
         "Company": "Delta Car Trade SA, 1806 St Legier, CH",
-        "Period": "2007-2018",
+        "Period": "10/2007 - 12/2017",
         "Duties": [
-          "Développement d'une plateforme de vente de voitures neuves en ligne",
-          "Développement d'un système TV basé sur Flash / clé USB sur Linux (diffusion d'animations/vidéos personnalisées sur les télés installés chez nos clients)"
-        ],
-        "ProjectTitle": "Projets importants",
-        "Projects": [
-          "Sites multimarque.com pour 4 marchés (FR, DE, 2 marchés CH)",   
-          "DeltaTV" 
+          "codé les sites web multimarque.com pour 4 marchés (FR, DE, 2 marchés CH), ces sites web ont augmenté notre couverture B2C de 0 à 40 000 visiteurs mensuels",
+          "largement contribué au développement d'un système TV basé sur Flash (diffusion d'animations/vidéos personnalisées sur les téléviseurs installés chez nos clients)",
+          "produit des animations Flash personnalisables",
+          "développé un système de surveillance pour plus de 300 écrans TV distants",
+          "préparé une image Ubuntu pour les clés USB pour le projet DeltaTV"
         ]
-        }, { 
+      },
+      {
         "Title": "Développeur Flash/Flex",
         "Company": "Art 3D Graphics, Moscou, Russie",
-        "Period": "2007",
+        "Period": "04/2007 - 10/2007",
         "Duties": [
-          "Développement de sites web promotionnels en Flash",
-          "Développement de présentations interactives basées sur Flash" 
+          "construit plus de 10 sites web promotionnels basés sur Flash",
+          "automatisé 3 présentations interactives"
         ]
-      }, {
+      },
+      {
         "Title": "Développeur Flash/Flex",
         "Company": "Hive7 (à distance)",
-        "Period": "2006-2007",
+        "Period": "05/2006 - 03/2007",
         "Duties": [
-          "Développement d'un chat (messagerie) flash pour le monde virtuel Hive7" 
+          "réalisé un chat Flash pour le monde virtuel Hive7"
         ]
       }, { 
         "Title": "Développeur Flash/Flex",
         "Company": "Nexo Russia, Moscou, Russie",
-        "Period": "2005-2007",
+        "Period": "09/2005 - 03/2007",
         "Duties": [
-          "Développement d'un système de tracking des véhicules", 
-          "Développement d'un système de centre d'appels pour traiter les alertes des véhicules"
+          "participé au développement front-end d'un système de centre d'appels pour le traitement des alarmes de véhicules. La partie la plus intéressante a été le développement d'une carte intégrée pour le suivi en temps réel de la position des voitures"
         ]
       }]
     },

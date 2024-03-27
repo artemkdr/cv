@@ -9,7 +9,7 @@
   },
 
   "FullName": "ARTEM KUDRYAVTSEV",
-  "JobTitle": "DEV TECH/TEAM LEAD | SOFTWARE ENGINEER",
+  "JobTitle": "TECH/TEAM LEAD | FULLSTACK WEB DEVELOPER",
 
   "Contact": {
     "Title": "KONTAKT",
@@ -36,28 +36,31 @@
   "TechSkills": {
     "Title": "TECHNISCHE FÄHIGKEITEN",
     "List": [
-      ".NET-Plattform, C#, Razor",
-      "HTML, JS, CSS, TypeScript, React, SEO",
-      "UX/UI, mobile Entwicklung (PWA)",
-      "SQL (MSSql, PostgreSql)",
-      "Administration Nginx, RabbitMQ, Jira, Jenkins, Git, SVN",
-      "AWS (API, Konfiguration, Deployment), GCP (API, Konfiguration), SalesForce (API, Integration)"
+      ".NET, C#, Razor, html, JavaScript, CSS",
+      "React.js, TypeScript",
+      "Databases MSSql, PostgreSql",
+      "UX/UI, mobile development (PWA), Search Engine Optimisation (SEO)",
+      "Nginx, RabbitMQ",
+      "Jira, Jenkins, Git, SVN, CI/CD, Docker",
+      "Amazon Web Services (AWS), Google Cloud Platform (GCP)",
+      "SalesForce (API, integration)",
+      "OS: Windows, Linux"
     ]
   },
 
   "SoftSkills": {
     "Title": "ALLGEMEINE FÄHIGKEITEN",
     "List": [
-      "Leistung und Problemlösung",
-      "Emotionale Intelligenz",
-      "Anpassungsfähigkeit, Flexibilität, schnelles Lernen",
-      "Effektive Kommunikation"
+      "Dynamischer und agiler Lerner",
+      "Effektive Kommunikation",
+      "Komfortabel beim gleichzeitigen Wechseln zwischen mehreren Projekten unter Beibehaltung von Fokus und Produktivität",
+      "Terminorientiert mit ausgezeichneter Geschwindigkeit bei der Projektabwicklung" 
     ]
   },
 
   "Education": {
     "Title": "AUSBILDUNG",
-    "List": [ "Lomonossow-Universität Moskau, 2000-2006 (5,5 Jahre), Master in Kernphysik" ]
+    "List": [ "Lomonossow-Universität Moskau, 2006, Master in Kernphysik" ]
   },
 
   "Languages": {
@@ -75,78 +78,69 @@
   },
 
   "Jobs": {
-    "Title": "BERUFSERFAHRUNG",
+    "Title": "BERUFSERFAHRUNG", 
     "List": [{
-      "Title": "Dev Tech/Team Lead",
-      "Company": "Delta Car Trade SA, 1806 St Legier, CH",
-      "Period": "2022-03.2024",
-      "Duties": [
-        "Leitung eines Teams von 5-7 Entwicklern",
-        "Projektmanagement",
-        "Technischer Experte und Integration",
-        "Code Review" 
-      ],
-      "ProjectTitle": "Wichtige Projekte (von der Konzeption bis zum Launch)",
-      "Projects": [
-        "PWA (Progressive Web App) der B2B-Plattform auto-source.com (React)",
-        "Massive Datenbankmigration: MSSql zu PostgreSql",
-        "Einheitliche Plattform für E-Mail-Kampagnen mit Sendgrid und Amazon SES als Anbieter (einschließlich Erstellung von Templates, Planung von Themen, etc.)",
-        "RabbitMQ-Integration",
-        "Nativer WhatsApp-Client für das Verkaufsteam (Nodes.js)"
-      ]
+        "Title": "Tech/Team Lead", 
+        "Company": "Delta Car Trade SA, 1806 St Legier, CH",
+        "Period": "09/2022 - 03/2024",
+        "Duties": [
+          "leitete ein Team von 5–7 Entwicklern", 
+          "leitete 6 komplexe Projekte bis zur Release-Phase", 
+          "veröffentlichte eine PWA der B2B-Plattform auto-source.com, die auf React basiert", 
+          "organisierte eine massive Migration von Datenbanken: MS SQL zu PostgreSql",
+          "erstellte eine E-Mail-Kampagnenplattform mit Sendgrid und Amazon SES als Anbieter. Diese interne Lösung ermöglichte es, 100 000 CHF pro Jahr für unser Unternehmen einzusparen",
+          "entwarf und implementierte die RabbitMQ-Integration mit meinem Team. Migrierte 9 Dienste zu einer ereignisgesteuerten Architektur und erhielt lose gekoppelte Dienste",
+          "führte Jenkins (mit GitHub-Integration) ein und konfigurierte es. Dies erhöhte die Entwicklerproduktivität durch die Automatisierung von Aufgaben",
+          "beteiligte sich am Architekturdesign neuer Dienste",
+          "interviewte und stellte 2 Junior-Entwickler ein",
+          "erweiterte meine Erfahrung in der Code-Überprüfung" 
+        ]
     }, {
-      "Title": "Senior Fullstack Web Developer",
-      "Company": "Delta Car Trade SA, 1806 St Legier, CH",
-      "Period": "2018-2022",
-      "Duties": [
-        "Entwicklung der internen Business-Analytics-Plattform",
-        "Entwicklung der internen Vertriebsmanagementplattform"
-      ],
-      "ProjectTitle": "Wichtige Projekte (komplett selbst entwickelt)",
-      "Projects": [
-        "Websites auto-dealer.com",
-        "Websites auto-source.com",
-        "internes Portal für Statistiken und Berichte",
-        "interne Plattform für intelligentes Callcenter"
-      ]
+        "Title": "Senior Fullstack Web Developer", 
+        "Company": "Delta Car Trade SA, 1806 St Legier, CH",
+        "Period": "01/2018 - 08/2022",
+        "Duties": [
+          "programmierte auto-dealer.com Websites - 4 Märkte, 2 Sprachen, über 2 Millionen Besucher im Jahr 2022",
+          "erstellte auto-source.com Websites - 80 000 Benutzer (Garagisten) im Jahr 2023", 
+          "implementierte eine interne Business-Intelligence-Plattform, die zu einem 2-mal schnelleren Zugriff auf Berichte und zur Erstellung neuer Berichte im Vergleich zu Salesforce führte",
+          "entwarf und entwickelte eine interne Callcenter-Plattform. Es erlaubt uns, monatlich +60% der Werkstätten anzurufen",
+          "führte den Nginx-Webserver als Einstiegspunkt für das Proxying zu unseren Diensten ein und konfigurierte ihn. Dies verbesserte die Zuverlässigkeit und Sicherheit erheblich und ermöglichte es uns, Stresstests mit bis zu 200 000 gleichzeitigen Verbindungen zu bestehen" 
+        ]
     }, {
-      "Title": "Software Engineer",
-      "Company": "Delta Car Trade SA, 1806 St Legier, CH", 
-      "Period": "2007-2018",
-      "Duties": [
-        "Entwicklung einer Online-Plattform für den Verkauf von Neuwagen",
-        "Entwicklung eines Flash/USB-basierten TV-Systems auf Linux (Ausstrahlung von personalisierten Animationen/Videos auf den Fernsehern unserer Kunden)"
-      ],
-      "ProjectTitle": "Wichtige Projekte",
-      "Projects": [
-        "Websites multimarque.com für 4 Märkte (FR, DE, 2 CH-Märkte)",
-        "DeltaTV"
-      ]
-    }, {
-      "Title": "Flash/Flex Developer",
-      "Company": "Art 3D Graphics, Moskau, Russland",
-      "Period": "2007",
-      "Duties": [
-        "Entwicklung von Flash-basierten Promotion-Websites",
-        "Entwicklung von interaktiven Präsentationen auf Flash-Basis"
-      ]
-    }, {
-      "Title": "Flash/Flex Developer",
-      "Company": "Hive7 (remote)",
-      "Period": "2006-2007",
-      "Duties": [
-        "Entwicklung eines Flash-Chats (Messaging) für die virtuelle Welt Hive7"
-      ]
-    }, {
-      "Title": "Flash/Flex Developer",
-      "Company": "Nexo Russia, Moskau, Russland",
-      "Period": "2005-2007",
-      "Duties": [
-        "Entwicklung eines Systems zur Fahrzeugverfolgung",
-        "Entwicklung eines Callcenter-Systems zur Bearbeitung von Fahrzeugwarnmeldungen"
-      ]
+        "Title": "Software-Ingenieur",
+        "Company": "Delta Car Trade SA, 1806 St Legier, CH",
+        "Period": "10/2007 - 12/2017",
+        "Duties": [             
+          "codierte multimarque.com-Websites für 4 Märkte (FR, DE, 2 CH-Märkte), diese Websites haben unsere B2C-Abdeckung von 0 auf 40'000 monatliche Besucher erhöht",
+          "trug maßgeblich zur Entwicklung eines Flash-basierten TV-Systems bei (Ausstrahlung von benutzerdefinierten Animationen/Videos auf den bei unseren Kunden installierten Fernsehern)",
+          "produzierte anpassbare Flash-Animationen",
+          "entwickelte ein Überwachungssystem für mehr als 300 entfernte TV-Bildschirme",
+          "bereitete ein Ubuntu-Image für USB-Sticks für das DeltaTV-Projekt vor"
+        ]
+    }, { 
+        "Title": "Flash/Flex Entwickler",
+        "Company": "Art 3D Graphics, Moskau, Russland", 
+        "Period": "04/2007 - 10/2007",
+        "Duties": [ 
+          "erstellte 10+ Flash-basierte Promo-Websites", 
+          "automatisierte 3 interaktive Präsentationen" 
+        ]
+    }, { 
+        "Title": "Flash/Flex Entwickler",
+        "Company": "Hive7 (remotely)", 
+        "Period": "05/2006 - 03/2007",
+        "Duties": [ 
+          "erstellte einen Flash-Chat für die virtuelle Welt Hive7"
+        ]
+    }, { 
+        "Title": "Flash/Flex Entwickler", 
+        "Company": "Nexo Russia, Moskau, Russland", 
+        "Period": "09/2005 - 03/2007",
+        "Duties": [ 
+          "Beteiligte sich an der Frontend-Entwicklung eines Callcenter-Systems zur Verarbei tung von Fahrzeugalarmen. Der interessanteste Teil war die Entwicklung einer integrierten Karte zur Echtzeitverfolgung von Autopositionen" 
+        ]
     }]
-  },
+  },  
 
   "i18Languages": {
     "en": "English",
