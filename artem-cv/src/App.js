@@ -18,7 +18,7 @@ import Chatbot, { createChatBotMessage } from "react-chatbot-kit";
 import MessageParser from './chatbot/MessageParser.js';
 import ActionProvider from './chatbot/ActionProvider.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClose, faCommentDots } from '@fortawesome/free-solid-svg-icons';
+import { faClose, faCommentDots, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import 'react-chatbot-kit/build/main.css';
 import 'font-awesome/css/font-awesome.min.css';
 
@@ -60,6 +60,10 @@ function App() {
           headerText={t('Chatbot.Title')}
           placeholderText={t('Chatbot.Placeholder')}
           />}
+
+      <a href={t('Contact.PDFLink')} className='download-pdf-button' target='blank' rel="noopener noreferrer" title={t('Contact.PDFLinkTitle')}>
+        <FontAwesomeIcon icon={faFilePdf} />
+      </a>
       
       <LanguageSelector />
       

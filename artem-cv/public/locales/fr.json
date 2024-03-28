@@ -20,7 +20,9 @@
       "Linkedin": "https://www.linkedin.com/in/artem-kudryavtsev-8937144/",
       "GithubLabel": "Github (ce projet)", 
       "Github": "https://github.com/fishbounce/cv/",
-      "Address": "1618 Chatel St Denis, CH" 
+      "Address": "1618 Chatel St Denis, CH",
+      "PDFLink": "https://drive.google.com/file/d/1xvyimrvbBMv5G2Z4TZ-zK5iwNXoodZzT/view?usp=sharing",
+      "PDFLinkTitle": "Télécharger le CV"
     },
   
     "Expertise": {
@@ -38,7 +40,7 @@
       "List": [
         ".NET, C#, Razor, html, JavaScript, CSS",
         "React.js, TypeScript",
-        "Base de données MSSql, PostgreSql",
+        "Base de données SQL Server, PostgreSql",
         "UX/UI, développement mobile (PWA), Search Engine Optimisation (SEO)",
         "Nginx, RabbitMQ",
         "Jira, Jenkins, Git, SVN, CI/CD, Docker",

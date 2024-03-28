@@ -95,6 +95,10 @@ ul { padding: 0px 0px 0px 20px; margin: 0px; display: block; clear: both; line-h
 .react-select__value-container { padding-right: 0px !important; }
 .react-select__menu { background-color: #222222 !important; color: inherit; border-radius: 0 !important; }
 
+.download-pdf-button {
+  position: absolute; top: 15px; right: 130px;
+}
+
 .toggleModeBtn { 
   cursor: pointer;
   position: absolute; top: 10px; right: 10px; 

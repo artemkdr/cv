@@ -20,7 +20,9 @@
       "Linkedin": "https://www.linkedin.com/in/artem-kudryavtsev-8937144/",
       "GithubLabel": "Github (данный проект)",
       "Github": "https://github.com/fishbounce/cv/",
-      "Address": "1618 Chatel St Denis, CH"
+      "Address": "1618 Chatel St Denis, CH",
+      "PDFLink": "https://drive.google.com/file/d/13Acxg4DsNAWb7fg03ADlALJJsysvig2W/view?usp=sharing",
+      "PDFLinkTitle": "Скачать резюме"
     },
   
     "Expertise": {
@@ -36,13 +38,16 @@
     "TechSkills": {
       "Title": "ТЕХНИЧЕСКИЕ НАВЫКИ",
       "List": [
-        "Платформа .NET, C#, Razor",
-        "html, js, css, TypeScript, React, SEO",
-        "UX/UI, мобильная разработка (PWA)",
-        "SQL (MSSql, PostgreSql)",
-        "Администрирование Nginx, RabbitMQ, Jira, Jenkins, Git, SVN",
-        "AWS (API, конфигурация, развертывание), GCP (API, конфигурация), SalesForce (API, интеграция)"
-      ]
+        ".NET, C#, Razor, html, JavaScript, CSS",
+        "React.js, TypeScript",
+        "Databases SQL Server, PostgreSql",
+        "UX/UI, mobile development (PWA), Search Engine Optimisation (SEO)",
+        "Nginx, RabbitMQ",
+        "Jira, Jenkins, Git, SVN, CI/CD, Docker",
+        "Amazon Web Services (AWS), Google Cloud Platform (GCP)",
+        "SalesForce (API, integration)",
+        "OS: Windows, Linux"
+    ]
     },
   
     "SoftSkills": {
