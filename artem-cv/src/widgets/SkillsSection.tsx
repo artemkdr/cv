@@ -1,6 +1,9 @@
 import React from 'react';
 
-const SkillsSection = ({title, items}) => {
+const SkillsSection = ({title, items} : {
+    title: string,
+    items: string[]
+}) => {
     return (
         <div className='skills'>
             <h2>{title}</h2>

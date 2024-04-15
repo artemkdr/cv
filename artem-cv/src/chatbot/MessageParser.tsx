@@ -1,7 +1,10 @@
 import React from 'react';
 
-const MessageParser = ({ children, actions }) => {
-    const parse = (message) => {
+const MessageParser = ({ children, actions } : { 
+    children : any, 
+    actions : any 
+  }) => {
+    const parse = (message : any) => {
       actions.handleMessage(message);
     };
   

@@ -4,19 +4,19 @@ import React, { useState } from 'react';
 // Initialize i18next with translations
 import './i18n';
 import { useTranslation } from 'react-i18next';
-import ContactSection from "./widgets/ContactSection.js"
-import SkillsSection from './widgets/SkillsSection.js';
-import SimpleSection from './widgets/SimpleSection.js';
-import JobSection from './widgets/JobSection.js';
-import Header from './widgets/Header.js';
-import Footer from './widgets/Footer.js';
+import ContactSection from "./widgets/ContactSection"
+import SkillsSection from './widgets/SkillsSection';
+import SimpleSection from './widgets/SimpleSection';
+import JobSection from './widgets/JobSection';
+import Header from './widgets/Header';
+import Footer from './widgets/Footer';
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
-import useDarkMode from './helpers/useDarkMode.js';
-import useTranslationsList from './helpers/useTranslationsList.js';
-import LanguageSelector from './widgets/LanguageSelector.js';
+import useDarkMode from './helpers/useDarkMode';
+import useTranslationsList from './helpers/useTranslationsList';
+import LanguageSelector from './widgets/LanguageSelector';
 import Chatbot, { createChatBotMessage } from "react-chatbot-kit";
-import MessageParser from './chatbot/MessageParser.js';
-import ActionProvider from './chatbot/ActionProvider.js';
+import MessageParser from './chatbot/MessageParser';
+import ActionProvider from './chatbot/ActionProvider';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClose, faCommentDots, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import 'react-chatbot-kit/build/main.css';
@@ -28,11 +28,11 @@ function App() {
   const { isDarkMode, toggleDarkMode } = useDarkMode();  
   const [isChatbotVisible, setIsChatbotVisible] = useState(false);
 
-  const jobs = t('Jobs.List', { returnObjects: true });
+  const jobs : any[] = t('Jobs.List', { returnObjects: true });
   
   const chatbotConfig = {
     botName: t('Chatbot.BotName'),
-    initialMessages: [createChatBotMessage(t('Chatbot.Salutation'))]
+    initialMessages: [createChatBotMessage(t('Chatbot.Salutation'), {})]
   };
 
   const handleChatBtnClick = () => {
@@ -43,7 +43,7 @@ function App() {
   };
 
   return (
-    <div class='ext'> 
+    <div className='ext'> 
 
       <button className='chat-button' onClick={handleChatBtnClick} >
         <FontAwesomeIcon icon={faCommentDots} />
@@ -77,7 +77,7 @@ function App() {
       <div className='container'>      
         <div className='left-pane'>
           <ContactSection />
-          <div class="delimiter dotted"></div>
+          <div className="delimiter dotted"></div>
           <SkillsSection title={t('Expertise.Title')} items={useTranslationsList("Expertise")} />
           <SkillsSection title={t('TechSkills.Title')} items={useTranslationsList("TechSkills")} />
           <SkillsSection title={t('SoftSkills.Title')} items={useTranslationsList("SoftSkills")} />
@@ -87,7 +87,7 @@ function App() {
         </div>
         <div className='right-pane'>
           <h2>{t('Jobs.Title')}</h2>
-          {jobs?.map((item, index) => (
+          {jobs?.map((item : any, index : number) => (
             <JobSection job={item} />
           ))}
         </div>

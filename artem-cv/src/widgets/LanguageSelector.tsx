@@ -3,11 +3,11 @@ import { useTranslation } from 'react-i18next';
 import { supportedLngs } from '../i18n';
 import Select from 'react-select';
 
-const LanguageSelector = ({style}) => {
+const LanguageSelector = () => {
   const { t, i18n } = useTranslation();
 
-  const handleChange = (selected) => {
-    i18n.changeLanguage(selected.value);
+  const handleChange = (selected : any) => {
+    i18n.changeLanguage(selected?.value);
   };
 
   const options = supportedLngs?.map((lang) => ({
@@ -16,7 +16,7 @@ const LanguageSelector = ({style}) => {
   }));
 
   return (
-    <div className='language-selector' style={style}>
+    <div className='language-selector'>
       <Select 
         className='react-select'
         classNamePrefix='react-select'

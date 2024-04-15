@@ -13,9 +13,9 @@ const useDarkMode = () => {
     document.body.classList.add(isDarkMode ? 'dark-mode' : 'light-mode');
   }, [isDarkMode]);
 
-  const toggleDarkMode = (checked) => {
+  const toggleDarkMode = (checked : boolean) => {
     setDarkMode(checked);
-    localStorage.setItem('lightMode', !checked);
+    localStorage.setItem('lightMode', (!checked).toString());
   };
 
   return { isDarkMode, toggleDarkMode };

@@ -1,11 +1,15 @@
 import React from 'react';
 import i18n from '../i18n';
 
-const ActionProvider = ({ createChatBotMessage, setState, children }) => {
-  const handleMessage = async (message) => {
+const ActionProvider = ({ createChatBotMessage, setState, children } : {
+  createChatBotMessage: Function,
+  setState: Function,
+  children: React.ReactNode
+}) => {
+  const handleMessage = async (message : string) => {
     let answer = "...";
     const loading = createChatBotMessage("");
-    setState((prev) => ({ ...prev, messages: [...prev.messages, loading], }));
+    setState((prev : any) => ({ ...prev, messages: [...prev.messages, loading], }));
     
     try {
         const rsp = await fetch('//cv.artem.work/api/chatbot?q=' + message);
@@ -21,7 +25,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
       answer = i18n.t("Chatbot.Generic");
     }
     const botMessages = answer.split('\n').map((msg) => createChatBotMessage(msg));
-    setState((prev) => {
+    setState((prev : any) => {
         const prevMsgLoading = prev.messages[prev.messages.length - 1]?.message === '' && prev.messages[prev.messages.length - 1]?.type === 'bot';
         const newPrevMsg = !prevMsgLoading ? prev.messages : prev.messages.slice(0, -1);
         return { ...prev, messages: [...newPrevMsg, ...botMessages]};
@@ -31,7 +35,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
   return (
     <div>
       {React.Children.map(children, (child) => {
-        return React.cloneElement(child, {
+        return React.cloneElement(child as React.ReactElement, {
           actions: {
             handleMessage
           }

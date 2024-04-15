@@ -1,6 +1,6 @@
 import React from 'react';
 
-const JobSection = (job) => {
+const JobSection = (job : any) => {
     job = job.job;
     let title = job["Title"];
     let company = job["Company"];
@@ -17,13 +17,13 @@ const JobSection = (job) => {
                 <div className="period">{period}</div>
             </div>
             {duties && <ul>
-                {duties.map((item, index) => (
+                {duties.map((item : string, index : number) => (
                     <li key={index}>{item}</li>
                 ))}
             </ul>}
             {projectTitle && <div className="subsection full m10">{projectTitle}</div>}
             {projects && <ul>
-                {projects.map((item, index) => (
+                {projects.map((item : string, index : number) => (
                     <li key={index}>{item}</li>
                 ))}
             </ul>}
