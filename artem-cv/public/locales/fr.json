@@ -9,7 +9,7 @@
     },
 
     "FullName": "ARTEM KUDRYAVTSEV", 
-    "JobTitle": "TECH/TEAM LEAD | DÉVELOPPEUR WEB FULLSTACK", 
+    "JobTitle": "FULL STACK ENGINEER | TECH LEAD", 
   
     "Contact": {
       "Title": "CONTACT", 
@@ -31,6 +31,7 @@
         "15+ ans de développement web full stack", 
         "Leadership d'équipe", 
         "Gestion de projet", 
+        "Architecture solutions",
         "Intégration Continue / Livraison Continue" 
       ]
     },
@@ -62,7 +63,17 @@
   
     "Education": {
       "Title": "ÉDUCATION", 
-      "List": [ "Université d'État de Moscou Lomonossov, 2006, Masters en physique nucléaire" ]
+      "List": [ 
+        {
+          "url": "https://www.credly.com/badges/fd552f91-68ee-4de2-9704-fe1669aa3216/public_url", 
+          "title": "AWS Training and Certification: Architecting"
+        },
+        {
+          "url": "https://www.credly.com/badges/fd552f91-68ee-4de2-9704-fe1669aa3216/public_url", 
+          "title": "AWS Training and Certification: Cloud essentials"
+        },
+        "Université d'État de Moscou Lomonossov, 2006, Masters en physique nucléaire" 
+      ]
     },
   
     "Languages": {

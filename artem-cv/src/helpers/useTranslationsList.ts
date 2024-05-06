@@ -8,7 +8,7 @@ const useTranslationsList = (key : string) => {
     if (typeof(o) === 'object' && o.length > 0) {
         for (var i = 0; i < o.length; i++) {
           var k = key + ".List." + i;
-          list.push(t(k));
+          list.push(t(k, {returnObjects: true}));
         }
     }
     return list;

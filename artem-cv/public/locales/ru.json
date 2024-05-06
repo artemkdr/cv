@@ -9,7 +9,7 @@
     },
 
     "FullName": "АРТЕМ КУДРЯВЦЕВ",
-    "JobTitle": "DEV TECH/TEAM LEAD | SOFTWARE ENGINEER",
+    "JobTitle": "FULL STACK ENGINEER | TECH LEAD",
   
     "Contact": {
       "Title": "КОНТАКТНАЯ ИНФОРМАЦИЯ",
@@ -31,6 +31,7 @@
         "15+ лет разработки полнофункциональных веб-приложений",
         "Руководство командой разработчиков",
         "Управление проектами",
+        "Solution Architecture",
         "Continuous Integration / Continuous Delivery"
       ]
     },
@@ -62,7 +63,17 @@
   
     "Education": {
       "Title": "ОБРАЗОВАНИЕ",
-      "List": [ "Московский Государственный Университет им. М.В. Ломоносова, 2000-2006 (5,5 лет), Специалист, Ядерная физика" ]
+      "List": [ 
+        {
+          "url": "https://www.credly.com/badges/fd552f91-68ee-4de2-9704-fe1669aa3216/public_url", 
+          "title": "AWS Training and Certification: Architecting"
+        },
+        {
+          "url": "https://www.credly.com/badges/fd552f91-68ee-4de2-9704-fe1669aa3216/public_url", 
+          "title": "AWS Training and Certification: Cloud essentials"
+        },
+        "Московский Государственный Университет им. М.В. Ломоносова, 2000-2006 (5,5 лет), Специалист, Ядерная физика" 
+      ]
     },
   
     "Languages": {
