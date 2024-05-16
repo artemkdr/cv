@@ -44,7 +44,7 @@ def chatbot_endpoint():
       "LinkedinLabel": "LinkedIn profile",
       "Linkedin": "https://www.linkedin.com/in/artem-kudryavtsev-8937144/",
       "GithubLabel": "Github (this project)",
-      "Github": "https://github.com/fishbounce/cv/",
+      "Github": "https://github.com/artemkdr/cv/",
       "Address": "1618 Chatel St Denis, CH"
     },
 
