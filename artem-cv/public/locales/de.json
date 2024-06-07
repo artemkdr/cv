@@ -39,15 +39,15 @@
   "TechSkills": {
     "Title": "TECHNISCHE FÄHIGKEITEN",
     "List": [
-      ".NET, C#, Razor, html, JavaScript, CSS",
-      "React.js, TypeScript",
-      "Databases SQL Server, PostgreSql",
-      "UX/UI, mobile development (PWA), Search Engine Optimisation (SEO)",
-      "Nginx, RabbitMQ",
-      "Jira, Jenkins, Git, SVN, CI/CD, Docker",
-      "Amazon Web Services (AWS), Google Cloud Platform (GCP)",
-      "SalesForce (API, integration)",
-      "OS: Windows, Linux"
+       ".NET, C#, Razor, html, JavaScript, CSS, XUnit",
+        "React.js, TypeScript",
+        "Databases SQL Server, PostgreSql",
+        "UX/UI, mobile development (PWA), Search Engine Optimisation (SEO)",
+        "Nginx, RabbitMQ",
+        "Jira, Jenkins, Git, Github Actions, SVN, CI/CD, Docker, YAML",
+        "Amazon Web Services (AWS), Google Cloud Platform (GCP)",
+        "SalesForce (API, integration)",
+        "OS: Windows + cmd, powershell, Linux + bash"
     ]
   },
 
@@ -97,7 +97,7 @@
         "Company": "Delta Car Trade SA, 1806 St Legier, CH",
         "Period": "09/2022 - 03/2024",
         "Duties": [
-          "leitete ein Team von 5–7 Entwicklern", 
+          "leitete ein Team von 5–7 Entwicklern, Während ich weiterhin tief in die Programmierung und die Lösung technischer Probleme involviert war", 
           "leitete 6 komplexe Projekte bis zur Release-Phase", 
           "veröffentlichte eine PWA der B2B-Plattform auto-source.com, die auf React basiert", 
           "organisierte eine massive Migration von Datenbanken: MS SQL zu PostgreSql",
