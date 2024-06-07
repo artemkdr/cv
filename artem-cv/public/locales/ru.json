@@ -39,15 +39,15 @@
     "TechSkills": {
       "Title": "ТЕХНИЧЕСКИЕ НАВЫКИ",
       "List": [
-        ".NET, C#, Razor, html, JavaScript, CSS",
-        "React.js, TypeScript",
-        "Databases SQL Server, PostgreSql",
-        "UX/UI, mobile development (PWA), Search Engine Optimisation (SEO)",
-        "Nginx, RabbitMQ",
-        "Jira, Jenkins, Git, SVN, CI/CD, Docker",
-        "Amazon Web Services (AWS), Google Cloud Platform (GCP)",
-        "SalesForce (API, integration)",
-        "OS: Windows, Linux"
+         ".NET, C#, Razor, html, JavaScript, CSS, XUnit",
+            "React.js, TypeScript",
+            "Databases SQL Server, PostgreSql",
+            "UX/UI, mobile development (PWA), Search Engine Optimisation (SEO)",
+            "Nginx, RabbitMQ",
+            "Jira, Jenkins, Git, Github Actions, SVN, CI/CD, Docker, YAML",
+            "Amazon Web Services (AWS), Google Cloud Platform (GCP)",
+            "SalesForce (API, integration)",
+            "OS: Windows + cmd, powershell, Linux + bash"
     ]
     },
   
@@ -97,7 +97,7 @@
         "Company": "Delta Car Trade SA, 1806 St Legier, CH",
         "Period": "2022-03.2024",
         "Duties": [
-          "Управление командой из 5-7 разработчиков",
+          "Управление командой из 5-7 разработчиков, продолжая активно писать код и решать технические проблемы",
           "Управление проектами",
           "Технический эксперт и интеграция",
           "Code review"
