@@ -8,20 +8,26 @@ RUN npm ci
 COPY artem-cv ./
 RUN npm run build
 
-# Stage 2: Final image with Python environment
-FROM python:3.9-alpine
-WORKDIR /app
-# Copy your Python script and any additional files
-COPY server/server.py .
-COPY server/lib/systemd/system/python-chatbot.service /lib/systemd/system/
-RUN pip3 install -r requirements.txt
-
 # Runtime stage
-FROM nginx:stable-alpine AS runtime
+FROM ubuntu:latest AS runtime
+RUN apt-get update
+RUN apt-get install -y nginx
+# install python
+WORKDIR /app
+RUN apt-get install -y python3 pip
+RUN python3 -m pip install setuptools flask virtualenv google-cloud-aiplatform --break-system-packages
+#RUN virtualenv /app/venv/
+#RUN source /app/venv/bin/activate
+#RUN /app/venv/bin/pip install google-cloud-aiplatform
+
+
+# Copy your Python script and any additional files
+WORKDIR /app
+COPY server/server.py /home/fishbounce/
+COPY server/lib/systemd/system/python-chatbot.service /lib/systemd/system/
+
 
 # Create 'www-data' user and group
-RUN apk add shadow
-RUN useradd -r -g www-data www-data
 # Create the /var/www/html/cv folder and set ownership
 RUN mkdir -p /var/www/html/cv && chown -R www-data:www-data /var/www/html/cv
 
